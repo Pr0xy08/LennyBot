@@ -25,7 +25,6 @@ async def noob(ctx):
   embed.add_field(name="```!rlenny```", value="***-Picks a random lenny!***", inline=False)
   embed.add_field(name="```!meetmymaker```", value="***-I'll show you who made me!***", inline=False)
   await ctx.send(embed=embed)
-  await ctx.message.delete()
   
 ########################################################################################################################
 #replies with a random hello message.  
@@ -44,7 +43,6 @@ async def meetmymaker(ctx):
   embed.add_field(name="***Linkedin***", value="https://www.linkedin.com/in/drew-wandless-8b2a97205/?originalSubdomain=uk", inline=False)
   embed.add_field(name="***Replit***", value = "https://replit.com/@drewwandless1", inline=False)
   await ctx.send(embed=embed)
-  await ctx.message.delete()
 
 ########################################################################################################################
 #generates a random lenny from the lenny library
